@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+
+/* ---------------Colors--------------- */
+
+@theme{
+  --color-primary:#0F766E;
+  --color-primaryHover :#8B5E3C;
+  --color-secondary:#8B5E3C;
+  --color-accent:#C89B3C;
+  --color-Background:#FAF6EF;
+  --color-Surface:#FFFFFF;
+  --color-text:#2D2A26;
+  --color-border:#E8DFD2
+}
+
+/* ---------------theme--------------- */
+body{
+  font-family:Peyda;
+  font-weight:500;
+}
+
+body{
+  background-color:#fbf5ec ;
+}
+
+@theme {
+  --font-peyda: "Peyda", sans-serif;
+  --font-morabba: "Morabba", sans-serif;
+}
+
+
+
+/* ---------------fonts--------------- */
+
+
+/* __Titrs__ */
+@font-face {
+  font-family:Morabba;
+  src: url("./assets/fonts/Morabba/Morabba-Regular.woff") format(woff);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family:Morabba;
+  src: url("./assets/fonts/Morabba/Morabba-SemiBold.woff") format(woff);
+  font-weight:600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family:Morabba;
+  src: url("./assets/fonts/Morabba/Morabba-SemiBold.woff") format(woff);
+  font-weight: 700;
+  font-display: swap;
+}
+
+
+/* __Texts__ */
+
+@font-face {
+  font-family:Peyda;
+  src: url("./assets/fonts/Peyda/Peyda-Medium.woff") format(woff);
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family:Peyda;
+  src: url("./assets/fonts/Peyda/Peyda-Medium.woff2") format(woff2);
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family:Peyda;
+  src: url("./assets/fonts/Peyda/Peyda-Regular.woff") format(woff);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family:Peyda;
+  src: url("./assets/fonts/Peyda/Peyda-Regular.woff2") format(woff2);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family:Peyda;
+  src: url("./assets/fonts/Peyda/Peyda-SemiBold.woff") format(woff);
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family:Peyda;
+  src: url("./assets/fonts/Peyda/Peyda-SemiBold.woff2") format(woff2);
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family:Peyda;
+  src: url("./assets/fonts/Peyda/Peyda-Bold.woff") format(woff);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family:Peyda;
+  src: url("./assets/fonts/Peyda/Peyda-Bold.woff2") format(woff2);
+  font-weight: 700;
+  font-display: swap;
+}
+
+
+
+
+.swiper {
+    overflow: visible;
+}

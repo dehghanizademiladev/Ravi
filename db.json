@@ -1,0 +1,461 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "slug": "afsane-sisyf",
+      "title": "افسانه سیزیف",
+      "author": "آلبر کامو",
+      "category": "philosophy",
+      "price": 425000,
+      "discount": 12,
+      "isBestSeller": true,
+      "image": "/images/books/afsaneSisyf.webp",
+      "isNew": false
+    },
+    {
+      "id": "2",
+      "slug": "donyaye-sofi",
+      "title": "دنیای سوفی",
+      "author": "یوستین گوردر",
+      "category": "philosophy",
+      "price": 398000,
+      "discount": 0,
+      "isBestSeller": true,
+      "image": "/images/books/donyayeSofi.jpg",
+      "isNew": false
+    },
+    {
+      "id": "3",
+      "slug": "ziyafat",
+      "title": "ضیافت",
+      "author": "افلاطون",
+      "category": "philosophy",
+      "price": 310000,
+      "discount": 15,
+      "isBestSeller": true,
+      "image": "/images/books/ziyafat.webp",
+      "isNew": false
+    },
+    {
+      "id": "4",
+      "slug": "ensan-dar-jostojo",
+      "title": "انسان در جستجوی معنا",
+      "author": "ویکتور فرانکل",
+      "category": "psychology",
+      "price": 330000,
+      "discount": 5,
+      "isBestSeller": true,
+      "image": "/images/books/ensanDarJostojo.webp",
+      "isNew": false
+    },
+    {
+      "id": "5",
+      "slug": "tazakorat",
+      "title": "تأملات",
+      "author": "مارکوس اورلیوس",
+      "category": "philosophy",
+      "price": 290000,
+      "discount": 0,
+      "isBestSeller": false,
+      "image": "/images/books/tazakorat.webp",
+      "isNew": true
+    },
+    {
+      "id": "6",
+      "slug": "chenin-goft-zartosht",
+      "title": "چنین گفت زرتشت",
+      "author": "فردریش نیچه",
+      "category": "philosophy",
+      "price": 390000,
+      "discount": 10,
+      "isBestSeller": false,
+      "image": "/images/books/cheninGoftZartosht.webp",
+      "isNew": true
+    },
+    {
+      "id": "7",
+      "slug": "kimiyagar",
+      "title": "کیمیاگر",
+      "author": "پائولو کوئیلو",
+      "category": "novel",
+      "price": 275000,
+      "discount": 8,
+      "isBestSeller": false,
+      "image": "/images/books/kimiyagar.webp",
+      "isNew": true
+    },
+    {
+      "id": "8",
+      "slug": "melat-eshgh",
+      "title": "ملت عشق",
+      "author": "الیف شافاک",
+      "category": "novel",
+      "price": 355000,
+      "discount": 0,
+      "isBestSeller": false,
+      "image": "/images/books/melatEshgh.webp",
+      "isNew": false
+    },
+    {
+      "id": "9",
+      "slug": "boof-koor",
+      "title": "بوف کور",
+      "author": "صادق هدایت",
+      "category": "novel",
+      "price": 220000,
+      "discount": 0,
+      "isBestSeller": true,
+      "image": "/images/books/boofKoor.webp",
+      "isNew": true
+    },
+    {
+      "id": "10",
+      "slug": "sad-sal-tanhaei",
+      "title": "صد سال تنهایی",
+      "author": "گابریل گارسیا مارکز",
+      "category": "novel",
+      "price": 460000,
+      "discount": 10,
+      "isBestSeller": false,
+      "image": "/images/books/sadSalTanhaei.webp",
+      "isNew": true
+    },
+    {
+      "id": "11",
+      "slug": "adat-haye-atomi",
+      "title": "عادت‌های اتمی",
+      "author": "جیمز کلیر",
+      "category": "self-development",
+      "price": 385000,
+      "discount": 5,
+      "isBestSeller": false,
+      "image": "/images/books/adatHayeAtomi.webp",
+      "isNew": false
+    },
+    {
+      "id": "12",
+      "slug": "asar-morakab",
+      "title": "اثر مرکب",
+      "author": "دارن هاردی",
+      "category": "self-development",
+      "price": 340000,
+      "discount": 15,
+      "isBestSeller": true,
+      "image": "/images/books/asarMorakab.webp",
+      "isNew": false
+    },
+    {
+      "id": "13",
+      "slug": "honare-zarif",
+      "title": "هنر ظریف بی‌خیالی",
+      "author": "مارک منسون",
+      "category": "psychology",
+      "price": 350000,
+      "discount": 0,
+      "isBestSeller": false,
+      "image": "/images/books/honareZarif.webp",
+      "isNew": false
+    },
+    {
+      "id": "14",
+      "slug": "ghorbaghe-ra-ghort-bede",
+      "title": "قورباغه‌ات را قورت بده",
+      "author": "برایان تریسی",
+      "category": "self-development",
+      "price": 285000,
+      "discount": 7,
+      "isBestSeller": false,
+      "image": "/images/books/ghorbagheRaGhortBede.webp",
+      "isNew": false
+    },
+    {
+      "id": "15",
+      "slug": "haft-adat",
+      "title": "هفت عادت مردمان مؤثر",
+      "author": "استیون کاوی",
+      "category": "self-development",
+      "price": 420000,
+      "discount": 10,
+      "isBestSeller": false,
+      "image": "/images/books/hafteAdat.webp",
+      "isNew": true
+    },
+    {
+      "id": "16",
+      "slug": "sefr-ta-yek",
+      "title": "صفر تا یک",
+      "author": "پیتر تیل",
+      "category": "business",
+      "price": 345000,
+      "discount": 0,
+      "isBestSeller": false,
+      "image": "/images/books/sefrTaYek.webp",
+      "isNew": true
+    },
+    {
+      "id": "17",
+      "slug": "oghyanose-abi",
+      "title": "استراتژی اقیانوس آبی",
+      "author": "چان کیم",
+      "category": "business",
+      "price": 415000,
+      "discount": 12,
+      "isBestSeller": false,
+      "image": "/images/books/oghyanoseAbi.webp",
+      "isNew": true
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "bookId": 1,
+      "userName": "علی",
+      "text": "کتاب خیلی خوبی بود، مخصوصاً بخش‌های فلسفی آن.",
+      "rating": 5,
+      "createdAt": "2026-08-28"
+    },
+    {
+      "id": "2",
+      "bookId": 1,
+      "userName": "محمد",
+      "text": "ترجمه کتاب رو دوست داشتم.",
+      "rating": 4,
+      "createdAt": "2026-08-27"
+    },
+    {
+      "id": "3",
+      "bookId": 1,
+      "userName": "رضا",
+      "text": "کتاب سنگینیه ولی ارزش خوندن داره.",
+      "rating": 5,
+      "createdAt": "2026-08-26"
+    }
+  ],
+  "massages": [
+    {
+      "name": "میلاد دهقانیزاده",
+      "email": "miladdehghan979@gmail.com",
+      "subject": "تستی",
+      "message": "تستی",
+      "id": "sJEjha5bcsQ"
+    },
+    {
+      "name": "میلاد",
+      "email": "miladdehghan979@gmail.com",
+      "subject": "فعال نشدن دوره",
+      "message": "ضسص",
+      "id": "fHTde_87dDQ"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "UFPsIR1wSM0"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "53ZkzbuAVfY"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "i7tfr8yn8pc"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "N99eiMYuShI"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "kkk",
+      "id": "u1g_-mu44Ck"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "kkk",
+      "id": "KQz6i2S3Xvs"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "TtR3dTAhjjA"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "TZnCWHVJ0vM"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "QLF7WPvibnU"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "soFxRMPL_Lk"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "Mnsyo8bNLSI"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "PSAC2H9jR54"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "5DZgSC40nWk"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "uMo0pR0j0I8"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "Rq916XrulcQ"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "BUWAyWvYXD8"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "6BKCukcCSn0"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "ic0pzHF61Ok"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "Fw7M3NeA6j8"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "ZEDlt1gO08k"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "9Hxz1iSKdlI"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "UnG3WGEc3k0"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "B2QvqLvAUYQ"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "PTIKBsDwt8M"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "1wUJqdZPn20"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "rgDo---pzC0"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "f_4mild0DbI"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "-_DWkr_54hk"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "QJBGD9J0ZR0"
+    },
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "lVGnAKqKg1I"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
