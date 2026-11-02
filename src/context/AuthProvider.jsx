@@ -4,9 +4,7 @@ import * as AuthService from "../services/auth.service"
 function AuthProvider({children}) {
     const [user,setUser]=useState(true);
     const [loading,setLoading]=useState(false);
-
-    useEffect(()=>{
-        const initAuth= async()=>{
+    const initAuth= async()=>{
             try{
                 const response=await AuthService.getMe();
                 console.log(response)
@@ -19,11 +17,17 @@ function AuthProvider({children}) {
             setLoading(false)
         }
         }
+    useEffect(()=>{
+        
   initAuth()
 },[])
 
+const refreshUser=async ()=>{
+     initAuth();
+}
+
 const value={
-    user,loading
+    user,loading,refreshUser
 }
 return <AuthContext.Provider value={value}>
     {children}
