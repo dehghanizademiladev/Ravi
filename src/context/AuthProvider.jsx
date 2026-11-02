@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import AuthContext from "./AuthContext"
 import * as AuthService from "../services/auth.service"
 function AuthProvider({children}) {
-    const [user,setUser]=useState(null);
+    const [user,setUser]=useState(true);
     const [loading,setLoading]=useState(false);
 
     useEffect(()=>{
@@ -10,6 +10,7 @@ function AuthProvider({children}) {
             try{
                 const response=await AuthService.getMe();
                 console.log(response)
+                setUser(response.data.data.user);
             }
 
         catch (err){
@@ -24,7 +25,7 @@ function AuthProvider({children}) {
 const value={
     user,loading
 }
-return <AuthContext.Provider value={{value}}>
+return <AuthContext.Provider value={value}>
     {children}
   </AuthContext.Provider>
 }

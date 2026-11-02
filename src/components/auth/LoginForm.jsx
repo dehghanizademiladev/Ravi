@@ -5,7 +5,6 @@ import AuthContext from "../../context/AuthContext";
 function LoginForm() {
   const {phone,otp,isSentOtp,handleSubmit,handlePhoneChange,handleOtpChange,resendOtp,isExpired,getFormatedTime}=useAuth();
 
-  const AuthContex=useContext(AuthContext);
   return (
     <form className="flex flex-col items-center " onSubmit={handleSubmit}>
       
