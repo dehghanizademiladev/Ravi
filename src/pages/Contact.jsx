@@ -2,7 +2,7 @@ import ContactHero from "../features/contact/ContactHero";
 import ContactInfo from "../features/contact/ContactInfo";
 import ContactForm from "../features/contact/ContactForm";
 import ContactFooterNote from "../features/contact/ContactFooterNote";
-
+import Maps from "../features/contact/Maps";
 function Contact() {
   return (
     <main className="min-h-screen bg-[#FAF6EF]">
@@ -16,8 +16,12 @@ function Contact() {
             <ContactFooterNote />
             <ContactForm />
           </div>
+          <div className="mt-12 lg:mt-16">
+        <Maps/>
+      </div>
         </section>
       </div>
+      
     </main>
   );
 }
