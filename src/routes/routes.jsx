@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, redirect } from "react-router";
 import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home"
 import Blog from "../pages/Blog"
@@ -10,6 +10,8 @@ import AboutUS from "../pages/AboutUS";
 import BestSeller from "../pages/BestSeller";
 import Contact from "../pages/Contact";
 import AuthLayout from "../layouts/AuthLayout";
+
+import CMSlayoout from "../layouts/CMSlayoout";
 export const router=createBrowserRouter([
     {
         path:"/",
@@ -53,6 +55,23 @@ export const router=createBrowserRouter([
             }
         ]
     },
+
+    {
+        path:"/dashboard",
+        element:<CMSlayoout/>,
+        children:[
+            {
+                path:"moderator",
+                children:[
+                    {index:true,loader:()=> redirect("home")},
+                    {path:"home",element:<div>HOME PAGE</div>},
+                    {path:"orders"},
+                    {path:"books"},
+                    {path:"offs"}
+                ]
+            }
+        ]
+    }
     
 
 ])
