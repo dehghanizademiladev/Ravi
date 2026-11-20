@@ -5,12 +5,11 @@ import Blog from "../pages/Blog"
 import Profile from "../pages/Profile"
 import Book from "../pages/Book";
 import Login from "../pages/Login"
-import BookDetails from "../pages/BookDetails"
 import AboutUS from "../pages/AboutUS";
 import BestSeller from "../pages/BestSeller";
 import Contact from "../pages/Contact";
 import AuthLayout from "../layouts/AuthLayout";
-
+import * as AuthService from "../services/auth.service" 
 import CMSlayoout from "../layouts/CMSlayoout";
 export const router=createBrowserRouter([
     {
@@ -62,6 +61,20 @@ export const router=createBrowserRouter([
         children:[
             {
                 path:"moderator",
+                loader:async()=>{
+                    try{
+                        const {response}=await AuthService.getMe()
+                        
+                        if (response.user.roles.includes("ADMIN")){
+                            return redirect("/forbidden")
+                        }
+
+                        return response.user
+                    }
+                    catch(err){
+                        return redirect("Auth")
+                    }
+                },
                 children:[
                     {index:true,loader:()=> redirect("home")},
                     {path:"home",element:<div>HOME PAGE</div>},
